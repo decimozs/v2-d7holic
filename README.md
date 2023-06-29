@@ -1,6 +1,6 @@
 <p align="center">
    <div align="center">
-      <img src="https://github.com/decimozs/v2-d7holic/assets/106976520/3688fa93-2f88-4f0a-b7bd-c05ff23e1199"/>
+      <img src="https://github.com/decimozs/v2-d7holic/assets/106976520/79cffb7d-5067-48e0-a34a-a3651b1c1d84"/>
    </div>
    <p align="center">Second version of my portfolio that built with Next.js, Tailwind CSS, Framer Motion and deployed with Vercel.</p>
    <div align="center">
@@ -14,7 +14,6 @@
 
 ## Getting Started
 
-Clone this repository:
 ```
 https://github.com/decimozs/v2-d7holic.git
 ```
