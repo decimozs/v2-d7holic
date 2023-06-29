@@ -31,4 +31,8 @@ yarn dev
 # or
 pnpm dev
 ```
+Run to your local server:
+```
+localhost:3000
+```
 
