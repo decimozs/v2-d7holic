@@ -2,7 +2,7 @@
    <div align="center">
       <img src="https://github.com/decimozs/v2-d7holic/assets/106976520/3688fa93-2f88-4f0a-b7bd-c05ff23e1199"/>
    </div>
-   <p align="center">Second version of my portfolio that built with Next.js, Tailwind CSS, Framer Motion and Vercel.</p>
+   <p align="center">Second version of my portfolio that built with Next.js, Tailwind CSS, Framer Motion and deployed with Vercel.</p>
    <div align="center">
       <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
       <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
