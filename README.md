@@ -13,7 +13,7 @@
    </div>
 
 ## Getting Started
-
+Clone the repository to your local server:
 ```
 https://github.com/decimozs/v2-d7holic.git
 ```
@@ -31,6 +31,7 @@ yarn dev
 # or
 pnpm dev
 ```
+
 Run to your local server:
 ```
 localhost:3000
