@@ -15,7 +15,7 @@ const About: React.FunctionComponent = () => {
   const name = <Highlights label="Marlon Martin" />;
   const swe = <Highlights label="software engineering" />;
   const cp = <Highlights label="competitive programming" />;
-  const sp = <Highlights label="systematic programming" />;
+  const sp = <Highlights label="system programming" />;
   const ctosp = <Highlights label="contributing to open-source projects" />;
   const github = (
     <Highlights
