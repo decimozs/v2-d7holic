@@ -8,7 +8,6 @@ export const description =
 export const seo: Metadata = {
   title,
   description,
-  metadataBase: new URL(URLS!),
   alternates: {
     canonical: "/",
     languages: {
@@ -37,7 +36,7 @@ export const seo: Metadata = {
     description,
     images: [
       {
-        url: "/assets/images/banner.png",
+        url: "/assets/images/opengraph-image.png",
       },
     ],
     type: "website",
