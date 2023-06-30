@@ -8,6 +8,7 @@ export const description =
 export const seo: Metadata = {
   title,
   description,
+  metadataBase: new URL(URLS!),
   alternates: {
     canonical: "/",
     languages: {
