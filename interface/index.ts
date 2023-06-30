@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 export interface HighlightsProps {
   label: string;
   link?: string;
@@ -7,4 +9,5 @@ export interface HighlightsProps {
 export interface ContactProps {
   network: string;
   link: string;
+  icon: IconType;
 }
