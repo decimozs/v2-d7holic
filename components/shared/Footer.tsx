@@ -18,8 +18,12 @@ const Footer: React.FunctionComponent = () => {
   const react = (
     <Highlights label="React" naviTo="useNavigate" link="https://react.dev" />
   );
-  const vite = (
-    <Highlights label="Vite" naviTo="useNavigate" link="https://vitejs.dev" />
+  const nextjs = (
+    <Highlights
+      label="Next.js"
+      naviTo="useNavigate"
+      link="https://nextjs.org"
+    />
   );
   const tailwind = (
     <Highlights
@@ -47,7 +51,7 @@ const Footer: React.FunctionComponent = () => {
       animate="animate"
       transition={animateFooter}
     >
-      Built with {ts}, {react}, {vite}, {tailwind}, {framer} and {vercel}.
+      Built with {ts}, {react}, {nextjs}, {tailwind}, {framer} and {vercel}.
     </motion.footer>
   );
 };
