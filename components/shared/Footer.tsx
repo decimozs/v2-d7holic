@@ -33,11 +33,7 @@ const Footer: React.FunctionComponent = () => {
     />
   );
   const framer = (
-    <Highlights
-      label="FramerMotion"
-      naviTo="useNavigate"
-      link="https://framer.com"
-    />
+    <Highlights label="Framer" naviTo="useNavigate" link="https://framer.com" />
   );
   const vercel = (
     <Highlights label="Vercel" naviTo="useNavigate" link="https://vercel.com" />
