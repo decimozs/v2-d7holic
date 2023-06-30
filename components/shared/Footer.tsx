@@ -10,7 +10,7 @@ import { containerVariants, animateFooter } from "../../animations";
 const Footer: React.FunctionComponent = () => {
   const ts = (
     <Highlights
-      label="Typescript"
+      label="TypeScript"
       naviTo="useNavigate"
       link="https://www.typescriptlang.org"
     />
