@@ -31,6 +31,7 @@ const About: React.FunctionComponent = () => {
       link="mailto:marlonadiguemartin548@gmail.com"
     />
   );
+  const esports = <Highlights label="esports varsity player" />;
 
   return (
     <div className="w-full max-w-mw flex flex-col mt-m2 gap-6">
@@ -66,7 +67,7 @@ const About: React.FunctionComponent = () => {
         morning, I would go for a 15-kilometer run, I enjoyed lifting weights as
         part of my fitness routine. In my leisure time, I would often play video
         games with my friends and would indulge in watching movies and TV
-        series.
+        series. And also I am an {esports} at our university.
       </motion.p>
 
       <motion.p
