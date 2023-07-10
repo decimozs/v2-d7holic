@@ -41,7 +41,7 @@ const Footer: React.FunctionComponent = () => {
 
   return (
     <motion.footer
-      className="w-full max-w-[400px] mb-m2 lg:mb-0"
+      className="w-full max-w-[400px] mb-m2 lg:mb-0 lg:mr-8"
       variants={containerVariants}
       initial="initial"
       animate="animate"

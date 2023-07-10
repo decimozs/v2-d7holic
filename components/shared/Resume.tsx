@@ -25,7 +25,7 @@ const Resume: React.FunctionComponent = () => {
       </motion.div>
 
       <motion.div
-        className="hidden highlights absolute top-6 right-8 py-p1 px-p2 cursor-pointer text-default font-medium bg-neon/5 rounded-md lg:block"
+        className="hidden highlights absolute top-6 right-10 py-p1 px-p2 cursor-pointer text-default font-medium bg-neon/5 rounded-md lg:block"
         variants={containerVariants}
         initial="initial"
         animate="animate"
