@@ -1,37 +1,37 @@
 // about component
-"use client";
+'use client'
 
-import { Highlights } from "../ui";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 import {
-  containerVariants,
   animateAbout1,
   animateAbout2,
   animateAbout3,
   animateAbout4,
-} from "../../animations";
+  containerVariants,
+} from '../../animations'
+import { Highlights } from '../ui'
 
 const About: React.FunctionComponent = () => {
-  const name = <Highlights label="Marlon Martin" />;
-  const swe = <Highlights label="software engineering" />;
-  const cp = <Highlights label="competitive programming" />;
-  const sp = <Highlights label="system programming" />;
-  const ctosp = <Highlights label="contributing to open-source projects" />;
+  const name = <Highlights label="Marlon Martin" />
+  const swe = <Highlights label="software engineering" />
+  const cp = <Highlights label="competitive programming" />
+  const sp = <Highlights label="low level programming" />
+  const ctosp = <Highlights label="contributing to open-source projects" />
   const github = (
     <Highlights
       label="GitHub"
       naviTo="useNavigate"
       link="https://github.com/decimozs"
     />
-  );
+  )
   const email = (
     <Highlights
       label="email"
       naviTo="useNavigate"
       link="mailto:marlonadiguemartin548@gmail.com"
     />
-  );
-  const esports = <Highlights label="esports varsity player" />;
+  )
+  const esports = <Highlights label="esports varsity player" />
 
   return (
     <div className="w-full max-w-mw flex flex-col mt-m2 gap-6">
@@ -81,7 +81,7 @@ const About: React.FunctionComponent = () => {
         effort to promptly respond to your inquiries and feedback.
       </motion.p>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
