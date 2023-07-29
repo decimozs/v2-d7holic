@@ -15,7 +15,7 @@
 ## Getting Started
 Clone the repository to your local server:
 ```
-https://github.com/decimozs/v2-d7holic.git
+git clone https://github.com/decimozs/v2-d7holic.git
 ```
 
 Install the dependencies:
